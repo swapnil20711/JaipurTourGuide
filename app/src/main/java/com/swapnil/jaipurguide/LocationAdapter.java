@@ -1,15 +1,12 @@
 package com.swapnil.jaipurguide;
 
 import android.app.Activity;
-import android.text.util.Linkify;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
-
-import androidx.core.widget.ListViewAutoScrollHelper;
 
 import java.util.List;
 
@@ -34,7 +31,7 @@ public class LocationAdapter extends ArrayAdapter {
         TextView phoneLocationTextView = (TextView) ListItemView.findViewById(R.id.phoneTextView);
         phoneLocationTextView.setText(currentLocation.getLocationPhone());
         TextView priceLocationTextView = (TextView) ListItemView.findViewById(R.id.priceTextView);
-        priceLocationTextView.setText(currentLocation.getLocationPrice()+"");
+        priceLocationTextView.setText(currentLocation.getLocationPrice() + "");
         ImageView image = (ImageView) ListItemView.findViewById(R.id.image);
         TextView timeLocationTextView = (TextView) ListItemView.findViewById(R.id.timeTextView);
         timeLocationTextView.setText(currentLocation.getLocationTime());

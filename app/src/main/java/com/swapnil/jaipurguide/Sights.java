@@ -1,8 +1,10 @@
 package com.swapnil.jaipurguide;
 
+import androidx.fragment.app.Fragment;
+
 import java.util.List;
 
-public class Sights {
+public class Sights extends Fragment {
     public static void initSightsList(List<Location> list) {
         list.add(new Location(500, "Amer fort", "Amber Fort, situated 11 kms from Jaipur, is a fort built with great artistic taste. Cradled on the top of a hill forming a beautiful reflection in Maotha Lake, it is popularly known as Amer Fort.", "Devisinghpura, Amer, Jaipur, Rajasthan 302001", "8am–5:30pm", " +91-141-2530293", R.drawable.amer));
         list.add(new Location(200, "Nahargarh fort", "Nahargarh Fort stands on the edge of the Aravalli Hills, overlooking the city of Jaipur in the Indian state of Rajasthan. Along with Amer Fort and Jaigarh Fort, Nahargarh once formed a strong defense ring for the city", "Krishna Nagar, Brahampuri, Jaipur, Rajasthan 302002", "10am–6pm", "+91-141-5134038", R.drawable.place2));

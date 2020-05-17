@@ -9,5 +9,6 @@
         android:layout_height="match_parent">
 
     </ListView>
+    <include layout="@layout/activity_main"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

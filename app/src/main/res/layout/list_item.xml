@@ -12,9 +12,12 @@
             android:id="@+id/nameTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_margin="16dp"
             android:gravity="center"
             android:text=""
+            android:fontFamily="@font/myfont"
+            android:textSize="36sp"
+            android:textColor="#ef0078"
             android:textAllCaps="true"
             android:textStyle="bold" />
 
@@ -93,7 +96,8 @@
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_margin="8dp"
-                android:src="@drawable/money"></ImageView>
+                android:padding="4dp"
+                android:src="@drawable/money5"></ImageView>
 
             <TextView
                 android:id="@+id/priceTextView"
@@ -107,9 +111,10 @@
             android:id="@+id/image"
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:layout_margin="16dp"
+            android:layout_margin="8dp"
             android:text="" />
 
     </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

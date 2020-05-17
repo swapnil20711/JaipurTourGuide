@@ -12,7 +12,7 @@ public class Location {
     private int mLocationPrice;
     private String output = "";
 
-    public Location(int LocationPrice,String LocationName, String LocationDescription,  String LocationAddress, String LocationTime, String Locationphone, int imageResource) {
+    public Location(int LocationPrice, String LocationName, String LocationDescription, String LocationAddress, String LocationTime, String Locationphone, int imageResource) {
         mLocationName = LocationName;
         mLocationDescription = LocationDescription;
         mLocationAddress = LocationAddress;
@@ -58,4 +58,5 @@ public class Location {
     public int getLocationImage() {
         return mImageId;
     }
+
 }
